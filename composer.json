@@ -1,0 +1,11 @@
+{
+    "name": "cjdennis/message",
+    "description": "Mandatory error code exceptions",
+    "type": "library",
+    "license": "MIT",
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {"CjDennis\\Message\\": "src/CjDennis/Message/"}
+    }
+}
