@@ -32,4 +32,9 @@ class MessageExceptionTest extends Unit {
     $example_message_exception = new ExampleMessageException('Test exception', 42);
     $this->assertInstanceOf(Exception::class, $example_message_exception);
   }
+
+  public function testShouldCreateANewExceptionWithAnErrorCode() {
+    $example_message_exception = new ExampleMessageException('Test exception', 42);
+    $this->assertSame(42, $example_message_exception->getCode());
+  }
 }
