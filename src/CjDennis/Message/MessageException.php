@@ -9,6 +9,6 @@ abstract class MessageException extends Exception {
   }
 
   public static function new($error_no): MessageException {
-    return new static('', $error_no);
+    return new static(static::MESSAGE[$error_no], $error_no);
   }
 }
