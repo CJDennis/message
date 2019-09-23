@@ -7,5 +7,8 @@
     "require": {},
     "autoload": {
         "psr-4": {"CjDennis\\Message\\": "src/CjDennis/Message/"}
+    },
+    "autoload-dev": {
+        "psr-4": {"CjDennis\\Message\\": "tests/unit/CjDennis/Message/"}
     }
 }
