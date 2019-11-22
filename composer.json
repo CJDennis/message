@@ -3,12 +3,13 @@
     "description": "Mandatory error code exceptions",
     "type": "library",
     "license": "MIT",
-    "minimum-stability": "dev",
+    "minimum-stability": "stable",
     "require": {},
     "autoload": {
         "psr-4": {"CJDennis\\Message\\": "src/CJDennis/Message/"}
     },
     "autoload-dev": {
         "psr-4": {"CJDennis\\Message\\": "tests/unit/CJDennis/Message/"}
-    }
+    },
+    "prefer-stable": true
 }
