@@ -6,9 +6,9 @@
     "minimum-stability": "dev",
     "require": {},
     "autoload": {
-        "psr-4": {"CjDennis\\Message\\": "src/CjDennis/Message/"}
+        "psr-4": {"CJDennis\\Message\\": "src/CJDennis/Message/"}
     },
     "autoload-dev": {
-        "psr-4": {"CjDennis\\Message\\": "tests/unit/CjDennis/Message/"}
+        "psr-4": {"CJDennis\\Message\\": "tests/unit/CJDennis/Message/"}
     }
 }

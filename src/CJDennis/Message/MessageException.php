@@ -1,5 +1,5 @@
 <?php
-namespace CjDennis\Message;
+namespace CJDennis\Message;
 
 use Exception;
 

@@ -1,5 +1,5 @@
 <?php
-namespace CjDennis\Message;
+namespace CJDennis\Message;
 
 class ExampleMessageException extends MessageException {
   const ERROR_CODE = 10;
