@@ -15,3 +15,7 @@ script:
   - vendor/bin/codecept run unit --coverage-xml=../../coverage.xml
   - vendor/bin/infection --threads=$(nproc) --min-covered-msi=100 --min-msi=100
   - bash <(curl -s https://codecov.io/bash) -c -F unittests
+
+env:
+  global:
+    secure: AF9eI9uw1KtaLuSV8P1YvaEO4GYe1BqXtNQkhoCkIrUw7bNho9evwJmZzhGsBaCkWyaZ24Gad1Af7F85OcJ/S86t+yVYKtgtC6pgO2na/kS4M6jg4cTgu6u8+B9Z11nF7HpUv1JCedoASU9cOaFSLAQe7KRO6XuZKNnXZ0RIwPWM4g+E3NP05/01hm5yhu+MsEMRnlvJU8ipFwkyQIb7+EjXIH0wbufv2pFyWr77AXS6L+JQ2uh4U0qeqqXtum2lkH5rxCNligtDt6C3izmYIwPldSRdqMkOd7N/4wkkUnZNw3JXIQj6sIwM2EPlE/kmjNmhYFlfd84AFr0dQC3yDK8tpNQdyxMvn3joFVVhTW0f9e8ENK5GTnlSr94Y5w6TtkfayG4rn/ACsA8A3OcyaWeH+pjQN92272X0c/FQILWmQnYT8P6dAlS5Qi9/8HCUxSoKNJbQ+HTRQA0hk0fiHGFes4+EF0lT//GXpO+g9jFqBuJ6qM/PXJHgoO+/eVHPYN+0BcEBaXQ5TxEc/G4eZZssed3+xFPkx8s5aeM5XnhZK1abSd+Xzp9wV9iNnqvbs08y0j0EX/NIhcv4v5wkZ5gJtXBD7XMljx/DvM3pyKGm7lt2fqCiM+FszejS3xVv+UkcBFRY3d5ylJ4ZBU1ug2V3m8qbBcEfyAvPysexk3c=
