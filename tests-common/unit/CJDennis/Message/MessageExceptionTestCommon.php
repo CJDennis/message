@@ -2,19 +2,13 @@
 namespace CJDennis\Message;
 
 use ArgumentCountError;
-use Codeception\Test\Unit;
 use Exception;
 
-class MessageExceptionTest extends Unit {
-  /**
-   * @var \UnitTester
-   */
-  protected $tester;
-
-  protected function _before() {
+trait MessageExceptionTestCommon {
+  protected function common_before() {
   }
 
-  protected function _after() {
+  protected function common_after() {
   }
 
   // tests
